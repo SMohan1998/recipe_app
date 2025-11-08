@@ -20,7 +20,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Pasta\",\r\n    \"ingredients\": [\"pasta\", \"tomato\", \"sauce\"],\r\n    \"instructions\": \"Cook pasta, add sauce, serve.\"\r\n}",
+					"raw": "{\r\n    \"title\": \"Coffee\",\r\n    \"ingredients\": [\"Hot Milk\",\"coffee powder\",\"sugar\"],\r\n    \"instructions\": \"Mix well the coffee powder and sugar with hot milk and serve.\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -28,12 +28,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/recipes",
-					"protocol": "http",
+					"raw": "https://recipe-app-wswf.onrender.com/api/recipes",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"recipe-app-wswf",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"recipes"
@@ -60,12 +61,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/recipes",
-					"protocol": "http",
+					"raw": "https://recipe-app-wswf.onrender.com/api/recipes",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"recipe-app-wswf",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"recipes"
@@ -80,12 +82,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/recipes/690f32d5b7891646a98a01ae",
-					"protocol": "http",
+					"raw": "https://recipe-app-wswf.onrender.com/api/recipes/690f32d5b7891646a98a01ae",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"recipe-app-wswf",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"recipes",
@@ -102,7 +105,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Cheese Pasta\",\r\n    \"ingredients\": [\"pasta\",\"tomato sauce\",\"cheese\"],\r\n        \"instructions\": \"Cook pasta, add cheese and tomato sauce, serve.\"\r\n}",
+					"raw": "{\r\n    \"title\": \"Spicy Cheese Pasta\",\r\n    \"ingredients\": [\"pasta\",\"tomato sauce\",\"chilly powder\",\"cheese\"],\r\n        \"instructions\": \"Cook pasta, add cheese, chilly powder and tomato sauce, serve.\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -110,12 +113,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/recipes/690f3359b7891646a98a01b4",
-					"protocol": "http",
+					"raw": "https://recipe-app-wswf.onrender.com/api/recipes/690f3359b7891646a98a01b4",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"recipe-app-wswf",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"recipes",
@@ -135,16 +139,17 @@
 					"raw": "{\r\n    \"title\": \"Cheese Pasta\",\r\n    \"ingredients\": [\"pasta\",\"tomato sauce\",\"cheese\"],\r\n        \"instructions\": \"Cook pasta, add cheese and tomato sauce, serve.\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/recipes/690f3303b7891646a98a01b2",
-					"protocol": "http",
+					"raw": "https://recipe-app-wswf.onrender.com/api/recipes/690f3d54542820b096e52d0d",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"recipe-app-wswf",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"recipes",
-						"690f3303b7891646a98a01b2"
+						"690f3d54542820b096e52d0d"
 					]
 				}
 			},
